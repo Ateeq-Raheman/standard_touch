@@ -5,12 +5,7 @@ frappe.router.on('change', () => {
     // Delay slightly to ensure DOM is ready
     setTimeout(() => {
         frappe.call({
-            method: 'frappe.client.get_list',
-            args: {
-                doctype: 'Standard Touch Message',
-                filters: { enabled: 1 },
-                fields: ['name', 'title', 'display_type', 'message', 'background_color', 'text_color', 'route', 'placement', 'css_selector']
-            },
+            method: 'standard_touch.api.get_active_messages',
             callback: function(r) {
                 if (r.message) {
                     const current_route = frappe.get_route_str();
