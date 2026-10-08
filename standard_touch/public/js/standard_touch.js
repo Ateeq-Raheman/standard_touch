@@ -33,10 +33,14 @@ function render_message(msg) {
     }
 
     const $msg_box = $(`<div id="${msg_id}" class="standard-touch-message">
+        <style>
+            #${msg_id}, #${msg_id} * {
+                color: ${msg.text_color};
+            }
+        </style>
         ${content}
     </div>`).css({
         'background-color': msg.background_color,
-        'color': msg.text_color,
         'padding': '10px',
         'margin': '10px 0',
         'border-radius': '4px',
