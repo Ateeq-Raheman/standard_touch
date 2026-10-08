@@ -16,7 +16,7 @@ def create_doctype():
                 {"fieldname": "col_break_1", "fieldtype": "Column Break"},
                 {"fieldname": "display_type", "label": "Display Type", "fieldtype": "Select", "options": "Static Banner\nRiding Text (Marquee)", "default": "Static Banner"},
                 {"fieldname": "sec_break_1", "fieldtype": "Section Break", "label": "Message Content"},
-                {"fieldname": "message", "label": "Message", "fieldtype": "TextEditor", "reqd": 1},
+                {"fieldname": "message", "label": "Message", "fieldtype": "Text Editor", "reqd": 1},
                 {"fieldname": "background_color", "label": "Background Color", "fieldtype": "Color", "default": "#f8f9fa"},
                 {"fieldname": "text_color", "label": "Text Color", "fieldtype": "Color", "default": "#1f272e"},
                 {"fieldname": "sec_break_2", "fieldtype": "Section Break", "label": "Placement Settings"},

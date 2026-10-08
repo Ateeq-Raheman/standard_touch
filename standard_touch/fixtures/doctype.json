@@ -365,7 +365,7 @@
     "fetch_from": null,
     "fetch_if_empty": 0,
     "fieldname": "message",
-    "fieldtype": "TextEditor",
+    "fieldtype": "Text Editor",
     "hidden": 0,
     "hide_border": 0,
     "hide_days": 0,
