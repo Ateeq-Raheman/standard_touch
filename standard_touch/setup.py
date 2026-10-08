@@ -5,8 +5,8 @@ def create_doctype():
     if not frappe.db.exists("DocType", "Standard Touch Message"):
         doc = frappe.get_doc({
             "doctype": "DocType",
-            "module": "Standardtouch",
-            "custom": 0,
+            "module": "Custom",
+            "custom": 1,
             "name": "Standard Touch Message",
             "is_submittable": 0,
             "autoname": "field:title",
