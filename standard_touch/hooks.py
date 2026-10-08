@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/standard_touch/css/standard_touch.css"
-# app_include_js = "/assets/standard_touch/js/standard_touch.js"
+app_include_js = "/assets/standard_touch/js/standard_touch.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/standard_touch/css/standard_touch.css"
